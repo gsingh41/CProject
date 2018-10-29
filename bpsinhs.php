@@ -11,6 +11,7 @@
     body { background-color: #fafafa; }
     .container { margin-top: 150px; }
 </style>
+<link rel="stylesheet" type="text/css" href="css/popup.css">
 </head>
 <body>
 
@@ -121,7 +122,11 @@
                 			<td></td>
                 		</tr>
                 		<tr>
-                			<td>Elective</td>
+                			<td>
+                            <div class="popup" onclick="myFunction()">Elective
+                              <span class="popuptext" id="myPopup">Elective</span>
+                            </div>
+                            </td>
                 			<td class="text-center">
 			                    <button class="btn btn-primary btn-sm btn-block">
 			                        <b>3</b>
@@ -137,7 +142,10 @@
 		               		</td>
                 		</tr>
                 		<tr>
-                			<td>HOSP 100 Introduction to Hospitality</td>
+                			<td>
+                            <div class="popup" onclick="myFunction1()">HOSP 100 Introduction to Hospitality
+                              <span class="popuptext" id="myPopup1">The basic principles of management and their relationship to the hospitality industry are reviewed, including restaurants, catering, food services, contract services, lodging, hotels, resorts, cruise lines, sales, event planning, conventions, conferences, travel, tourism, resorts, eco-tourism, and other unique sectors. </span>
+                            </div></td>
                 			<td class="text-center">
 			                    <button class="btn btn-primary btn-sm btn-block">
 			                        <b>3</b>
@@ -238,7 +246,33 @@
             </tr>      
         </table>
     </div>
-
+    <script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+    function myFunction1() {
+        var popup = document.getElementById("myPopup1");
+        popup.classList.toggle("show");
+    }
+    function myFunction2() {
+        var popup = document.getElementById("myPopup2");
+        popup.classList.toggle("show");
+    }
+    function myFunction3() {
+        var popup = document.getElementById("myPopup3");
+        popup.classList.toggle("show");
+    }
+    function myFunction4() {
+        var popup = document.getElementById("myPopup4");
+        popup.classList.toggle("show");
+    }
+    function myFunction5() {
+        var popup = document.getElementById("myPopup5");
+        popup.classList.toggle("show");
+    }
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="shopkart.js"></script>
