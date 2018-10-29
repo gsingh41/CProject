@@ -161,7 +161,11 @@
 		               		</td>
                 		</tr>
                 		<tr>
-                			<td>Hospitality Elective</td>
+                			<td>
+                                <div class="popup" onclick="myFunction2()">Hospitality Elective
+                                    <span class="popuptext" id="myPopup2">Hospitality Elective</span>
+                                </div>
+                            </td>
                 			<td class="text-center">
 			                    <button class="btn btn-primary btn-sm btn-block">
 			                        <b>3</b>
@@ -177,7 +181,11 @@
 		               		</td>
                 		</tr>
                 		<tr>
-                			<td>Hospitality Elective</td>
+                			<td>    
+                                <div class="popup" onclick="myFunction3()">Hospitality Elective
+                                    <span class="popuptext" id="myPopup3">Hospitality Elective</span>
+                                </div>
+                            </td>
                 			<td class="text-center">
 			                    <button class="btn btn-primary btn-sm btn-block">
 			                        <b>3</b>
@@ -202,7 +210,11 @@
 		               		</td>
                 		</tr>
                 		<tr>
-                			<td>BIOL 103 Nutrition and Society</td>
+                			<td>
+                                <div class="popup" onclick="myFunction4()">BIOL 103 Nutrition and Society
+                                    <span class="popuptext" id="myPopup4"> An introduction to the principles of nutrition in food management. Includes food customs, patterns and habits, nutrients in foods, applied nutrition, and world nutrition problems and programs. </span>
+                                </div>
+                            </td>
                 			<td class="text-center">
 			                    <button class="btn btn-primary btn-sm btn-block">
 			                        <b>3</b>
@@ -226,7 +238,11 @@
                 			<td></td>
                 		</tr>
                 		<tr>
-                			<td>Elective</td>
+                			<td>
+                                <div class="popup" onclick="myFunction5()">Elective
+                                    <span class="popuptext" id="myPopup5">Elective</span>
+                                </div>
+                        </td>
                 			<td class="text-center">
 			                    <button class="btn btn-primary btn-sm btn-block">
 			                        <b>3</b>
